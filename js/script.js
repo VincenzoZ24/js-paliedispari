@@ -12,3 +12,9 @@ function invertiParola(stringa) {
     let stringaInversa = stringa.split('').reverse().join('');
     return stringaInversa;
 };
+
+
+
+
+// inizo pari o dispari
+let utente = prompt("pari o dispari?");
