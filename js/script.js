@@ -8,7 +8,7 @@ if (parola == parolaInversa) {
     console.log('la parola non è palindroma');
 }
 
-function invertiParola(str) {
-    let strInversa = str.split('').reverse().join('');
-    return strInversa;
+function invertiParola(stringa) {
+    let stringaInversa = stringa.split('').reverse().join('');
+    return stringaInversa;
 };
