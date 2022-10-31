@@ -34,3 +34,19 @@ function numComputer (min, max) {
 
 console.log(`il numero del tuo avversario è: ${numComputer (1, 5)}`);
 
+
+const sommaNumeri = sceltaUtente + numComputer;
+function isEven(number) {
+    if (number % 2 == 0) {
+        return true
+    } else{
+        return false
+    };
+};
+
+if(isEven(sommaNumeri) && utente == "pari" || (!isEven(sommaNumeri) && utente == "dispari")){
+ console.log("HAI VINTO");
+
+}else{
+    console.log ("HAI PERSO");
+};
