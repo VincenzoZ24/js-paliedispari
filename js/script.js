@@ -8,9 +8,9 @@ if (parola == parolaInversa) {
     console.log('la parola non è palindroma');
 }
 
-function invertiParola(stringa) {
-    let stringaInversa = stringa.split('').reverse().join('');
-    return stringaInversa;
+function invertiParola(str) {
+    let strInversa = str.split('').reverse().join('');
+    return strInversa;
 };
 
 
@@ -18,3 +18,19 @@ function invertiParola(stringa) {
 
 // inizo pari o dispari
 let utente = prompt("pari o dispari?");
+console.log(`hai scelto: ${utente}`);
+let sceltaUtente = prompt("scegli un numero da 1 a 5");
+console.log(`il tuo numero è : ${sceltaUtente}`);
+if (sceltaUtente > "5") {
+    alert("numero maggiore di 5")
+
+};
+
+function numComputer (min, max) {
+
+    return Math.floor(Math.random() * 6 );
+
+};
+
+console.log(`il numero del tuo avversario è: ${numComputer (1, 5)}`);
+
